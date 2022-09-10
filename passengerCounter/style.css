@@ -1,4 +1,34 @@
-.button {
-    background-color: red;
+
+
+h1 {
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(img/station.jpg);
+    text-align: center;
+}
+
+#increment-btn {
+    background: darkred;
+    /* border: none; */
+    border-radius: 10%;
+    padding: 20 20 20 20;
+    font-size: 150%;
+    color: white;
     
+}
+
+#reset-btn {
+    background: rgb(24, 41, 0);
+    border:1ch;
+    border-radius: 10%;
+    padding: 20 20 20 20;
+    font-size: 150%;
+    color: white;
+}
+
+#count-el {
+    font-family:Arial, Helvetica, sans-serif;
 }
